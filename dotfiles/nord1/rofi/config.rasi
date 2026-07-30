@@ -1,0 +1,49 @@
+* {
+     bg: #2e3440;
+     bg-alt: #3b4252;
+     fg: #eceff4;
+     accent: #88c0d0;
+   }
+
+   window {
+     width: 30%;
+     location: center;
+     background-color: @bg;
+     border: 2;
+     border-color: @accent;
+     border-radius: 6;
+   }
+
+   mainbox {
+     padding: 10;
+   }
+
+   inputbar {
+     children: [ prompt, entry ];
+     background-color: @bg-alt;
+     padding: 6;
+     border-radius: 4;
+   }
+
+   entry {
+     placeholder: "run...";
+   }
+
+   listview {
+     lines: 8;
+     spacing: 4;
+   }
+
+   element {
+     padding: 6;
+     border-radius: 4;
+   }
+
+   element selected {
+     background-color: @accent;
+     text-color: #000000;
+   }
+
+   prompt {
+     text-color: @accent;
+   }
