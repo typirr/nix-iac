@@ -1,5 +1,6 @@
 # Nord1 i3 config
 exec_always nitrogen --restore
+exec_always soteria
 set $mod Mod4
 font pango:JetBrains Mono NF 10
 exec --no-startup-id dex --autostart --environment i3
