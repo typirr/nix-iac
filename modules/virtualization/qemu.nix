@@ -1,3 +1,8 @@
 { config, pkgs, ... }:{
- environment.systemPackages = [ pkgs.qemu_full ];
+ virtualisation.libvirtd = {
+   enable = true;
+   qemu = {
+     package = pkgs.qemu-full;
+   };
+ };
 }
