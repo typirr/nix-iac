@@ -55,6 +55,9 @@
   
   ../../../modules/development/java/all-temurin-jres.nix
   
+  ../../../modules/virtualization/virt-manager.nix
+  ../../../modules/virtualization/qemu.nix
+
   ../../../modules/gaming/lutris.nix
   ../../../modules/gaming/mangohud.nix
   ../../../modules/gaming/steam.nix
