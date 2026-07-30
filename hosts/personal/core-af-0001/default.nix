@@ -16,6 +16,7 @@
 
   ../../../modules/security/sops.nix 
   ../../../modules/security/password-managers/keepassxc.nix
+  ../../../modules/security/password-managers/bitwarden-desktop.nix
   ../../../modules/social/xmpp/gajim.nix
   ../../../modules/social/xmpp/dino.nix
   ../../../modules/social/mumble.nix
