@@ -16,10 +16,10 @@
 
   ../../../modules/security/sops.nix 
   ../../../modules/security/password-managers/keepassxc.nix
-  ../../../modules/security/password-managers/bitwarden-desktop.nix
   ../../../modules/social/xmpp/gajim.nix
   ../../../modules/social/xmpp/dino.nix
   ../../../modules/social/mumble.nix
+  ../../../modules/social/vesktop.nix
   ../../../modules/web-browser/librewolf.nix
   ../../../modules/web-browser/tor-browser.nix
   ../../../modules/media/players/mpv.nix
