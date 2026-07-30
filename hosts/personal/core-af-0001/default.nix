@@ -16,6 +16,7 @@
 
   ../../../modules/security/sops.nix 
   ../../../modules/security/gnome-keyring.nix
+  ../../../modules/security/polkit.nix
   ../../../modules/security/password-managers/keepassxc.nix
 
   ../../../modules/social/xmpp/gajim.nix
