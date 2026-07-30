@@ -2,7 +2,7 @@
  virtualisation.libvirtd = {
    enable = true;
    qemu = {
-     package = pkgs.qemu-full;
+     package = qemu-full;
    };
  };
 }
