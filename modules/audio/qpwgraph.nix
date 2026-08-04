@@ -1,5 +1,5 @@
 { pkgs, ... }:{
 
- environemnt.systemPackages = [ pkgs.qpwgraph ];
+ environment.systemPackages = [ pkgs.qpwgraph ];
 
 }
