@@ -41,7 +41,8 @@
   
   ../../../modules/audio/pipewire.nix
   ../../../modules/audio/pavucontrol.nix
-  
+  ../../../modules/audio/qpwgraph.nix
+
   ../../../modules/desktop/windowmanager/i3.nix
   ../../../modules/desktop/displaymanager/ly.nix
   ../../../modules/desktop/tools/rofi.nix   
