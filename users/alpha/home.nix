@@ -22,6 +22,7 @@
     pkgs.bat
     pkgs.eza
     pkgs.fzf
+    pkgs.git
     pkgs.jq
     
     pkgs.nordic
@@ -30,7 +31,6 @@
   ];
 
   programs.bash.enable = true;
-  programs.git.enable = true;
   programs.neovim = {
   enable = true;
 
