@@ -1,23 +1,23 @@
 # HOW TO INSTALL !?
 
 ## Be the root user
-`` sudo -i ``
+``` sudo -i ```
 
 ## Connect to the internet
-nmtui
+``` nmtui ```
 
 ## Clone config
-git clone https://github.com/typirr/nix-iac
-cd nix-iac
+``` git clone https://github.com/typirr/nix-iac ```
+``` cd nix-iac ```
 
 ## Check available hosts
-ls hosts/
+``` ls hosts/ ```
 
 ## Verify disko configuration
-cat hosts/<hostname>/disko.nix
+``` cat hosts/<hostname>/disko.nix ```
 
 ## Partition
-disko --mode destroy,format,mount hosts/<hostname>/disko.nix
+``` disko --mode destroy,format,mount hosts/<hostname>/disko.nix ```
 
 ## Install
-nixos-install --flake .#<hostname>
+``` nixos-install --flake .#<hostname> ```
