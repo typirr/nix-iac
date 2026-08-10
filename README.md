@@ -1,23 +1,25 @@
-# HOW TO INSTALL !?
+# HOW TO INSTALL? - 7 simple steps
 
-## Be the root user
+## 1- Be the root user
 ``` sudo -i ```
 
-## Connect to the internet
+## 2- Connect to the internet
 ``` nmtui ```
 
-## Clone config
+## 3- Clone config
 ``` git clone https://github.com/typirr/nix-iac ```
 ``` cd nix-iac ```
 
-## Check available hosts
+## 4- Check available hosts
 ``` ls hosts/ ```
 
-## Verify disko configuration
+## 5- Verify disko configuration
 ``` cat hosts/<hostname>/disko.nix ```
 
-## Partition
+## 6- Partition
 ``` disko --mode destroy,format,mount hosts/<hostname>/disko.nix ```
 
-## Install
+## 7- Install
 ``` nixos-install --flake .#<hostname> ```
+
+## Congrats, you now have a fully functional rock solid system exactly like mine!
