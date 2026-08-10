@@ -11,15 +11,15 @@
 ``` cd nix-iac ```
 
 ## 4- Check available hosts
-``` ls hosts/ ```
+``` tree hosts/ ```
 
 ## 5- Verify disko configuration
-``` cat hosts/<hostname>/disko.nix ```
+``` cat hosts/<use-case>/<hostname>/disko.nix ```
 
 ## 6- Partition
-``` disko --mode destroy,format,mount hosts/<hostname>/disko.nix ```
+``` disko --mode destroy,format,mount hosts/<use-case>/<hostname>/disko.nix ```
 
 ## 7- Install
-``` nixos-install --flake .#<hostname> ```
+``` nixos-install --flake .#<use-case>/<hostname> ```
 
 ## Congrats, you now have a fully functional rock solid system exactly like mine!
