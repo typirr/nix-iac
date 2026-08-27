@@ -24,7 +24,7 @@
   ../../../modules/social/mumble.nix
   ../../../modules/social/vesktop.nix
   
-  ../../../modules/web-browser/librewolf.nix
+  ../../../modules/web-browser/firefox.nix
   ../../../modules/web-browser/tor-browser.nix
   
   ../../../modules/media/players/mpv.nix
