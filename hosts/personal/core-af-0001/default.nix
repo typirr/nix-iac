@@ -43,10 +43,8 @@
   ../../../modules/audio/pavucontrol.nix
   ../../../modules/audio/qpwgraph.nix
 
-  #../../../modules/desktop/windowmanager/i3.nix
-  #../../../modules/desktop/displaymanager/ly.nix
-  ../../../modules/desktop/desktopenvironment/cosmic.nix
-  ../../../modules/desktop/displaymanager/cosmic-greeter.nix
+  ../../../modules/desktop/windowmanager/i3.nix
+  ../../../modules/desktop/displaymanager/ly.nix
   ../../../modules/desktop/tools/rofi.nix   
   ../../../modules/desktop/tools/nitrogen.nix
   ../../../modules/desktop/tools/lxrandr.nix
