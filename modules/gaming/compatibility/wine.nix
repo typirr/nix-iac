@@ -4,7 +4,6 @@
    pkgs.wine
    pkgs.wine64
    pkgs.winetricks
-   pkgs.protonup-qt
  ];
 
 }

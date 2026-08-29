@@ -60,10 +60,13 @@
   ../../../modules/virtualization/virt-manager.nix
   ../../../modules/virtualization/qemu.nix
 
-  ../../../modules/gaming/lutris.nix
-  ../../../modules/gaming/mangohud.nix
-  ../../../modules/gaming/steam.nix
-  ../../../modules/gaming/wine.nix
+  ../../../modules/gaming/launchers/lutris.nix
+  ../../../modules/gaming/launchers/heroic.nix
+  ../../../modules/gaming/overlays/mangohud.nix
+  ../../../modules/gaming/stores/steam.nix
+  ../../../modules/gaming/compatibility/wine.nix
+  ../../../modules/gaming/compatibility/installers/protonplus.nix
+  ../../../modules/gaming/compatibility/installers/protonup-qt.nix
   
   ../../../modules/networking/cloudflare-warp.nix
   ../../../modules/networking/dns.nix
