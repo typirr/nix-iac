@@ -49,13 +49,14 @@
   ../../../modules/desktop/tools/nitrogen.nix
   ../../../modules/desktop/tools/lxrandr.nix
   
+  ../../../modules/utilities/qbittorrent.nix
   ../../../modules/utilities/archive-software.nix
   ../../../modules/utilities/appimage-run.nix
   ../../../modules/utilities/file-manager/thunar.nix
   ../../../modules/utilities/terminal-emulators/alacritty.nix
   ../../../modules/utilities/multiplexers/zellij.nix
   ../../../modules/utilities/package-managers/flatpak.nix
-
+  
   ../../../modules/development/java/all-temurin-jres.nix
   
   ../../../modules/virtualization/virt-manager.nix
