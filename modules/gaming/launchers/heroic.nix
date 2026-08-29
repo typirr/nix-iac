@@ -1,3 +1,3 @@
 { config, pkgs, ... }:{
- environment.systemPackages = { pkgs.heroic };
+ environment.systemPackages = [ pkgs.heroic ];
 }

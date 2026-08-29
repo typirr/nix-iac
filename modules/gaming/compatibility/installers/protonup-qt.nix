@@ -1,4 +1,4 @@
 { config, pkgs, ... }:{
- environment.systemPackages = { pkgs.protonup-qt };
+ environment.systemPackages = [ pkgs.protonup-qt ];
 
 }
