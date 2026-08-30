@@ -29,7 +29,6 @@
       
 
       core-af-0001 = nixpkgs.lib.nixosSystem {
-        # an i5-4570 with iGPU HD 4600 and 500GB HDD located in home1 africa/egypt
 	system = "x86_64-linux";        
 	modules = [
           ./hosts/personal/core-af-0001/default.nix
