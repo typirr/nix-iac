@@ -1,5 +1,5 @@
 { pkgs, ... }:{
   environment.systemPackages = [
-    pkgs.proton-vpn-gui
+    pkgs.protonvpn-gui
   ];
 }
