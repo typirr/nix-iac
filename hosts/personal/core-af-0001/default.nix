@@ -74,7 +74,8 @@
   ../../../modules/networking/dns.nix
   ../../../modules/networking/tor.nix
   ../../../modules/networking/networkmanager.nix
-  
+  ../../../modules/networking/vpn/proton-vpn.nix
+
   ../../../modules/fonts/jetbrains-mono-nerdfonts.nix
  ];
  
