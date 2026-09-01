@@ -56,7 +56,8 @@
   ../../../modules/utilities/terminal-emulators/alacritty.nix
   ../../../modules/utilities/multiplexers/zellij.nix
   ../../../modules/utilities/package-managers/flatpak.nix
-  
+  ../../../modules/utilities/office/libreoffice.nix
+  ../../../modules/utilities/office/onlyoffice.nix
   ../../../modules/development/java/all-temurin-jres.nix
   
   ../../../modules/virtualization/virt-manager.nix
