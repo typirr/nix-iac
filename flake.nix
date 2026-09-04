@@ -36,6 +36,9 @@
 
       core-af-0001 = nixpkgs.lib.nixosSystem {
 	system = "x86_64-linux";        
+	specialArgs = {
+          inherit inputs;
+        };
 	modules = [
           ./hosts/personal/core-af-0001/default.nix
           sops-nix.nixosModules.sops
