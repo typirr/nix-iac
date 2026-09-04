@@ -59,6 +59,7 @@
   ../../../modules/desktop/tools/fuzzel.nix
   ../../../modules/desktop/tools/hyprpaper.nix
   ../../../modules/desktop/tools/nwg-look.nix
+  ../../../modules/desktop/tools/nwg-displays.nix
   ../../../modules/desktop/tools/slurp.nix
   ../../../modules/desktop/tools/waybar.nix
 
