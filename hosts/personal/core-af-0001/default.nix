@@ -44,7 +44,10 @@
   ../../../modules/audio/qpwgraph.nix
 
   ../../../modules/desktop/windowmanager/i3.nix
+  ../../../modules/desktop/windowmanager/hyprland.nix
   ../../../modules/desktop/displaymanager/ly.nix
+  ../../../modules/desktop/tools/hypridle.nix
+  ../../../modules/desktop/tools/hyprlock.nix
   ../../../modules/desktop/tools/rofi.nix   
   ../../../modules/desktop/tools/nitrogen.nix
   ../../../modules/desktop/tools/lxrandr.nix
