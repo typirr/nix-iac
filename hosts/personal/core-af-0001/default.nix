@@ -44,21 +44,10 @@
   ../../../modules/audio/qpwgraph.nix
 
   ../../../modules/desktop/windowmanager/i3.nix
-  ../../../modules/desktop/windowmanager/hyprland.nix
-  ../../../modules/desktop/shells/noctalia.nix
   ../../../modules/desktop/displaymanager/ly.nix
-  ../../../modules/desktop/tools/hypridle.nix
-  ../../../modules/desktop/tools/hyprlock.nix
   ../../../modules/desktop/tools/rofi.nix   
   ../../../modules/desktop/tools/nitrogen.nix
   ../../../modules/desktop/tools/lxrandr.nix
-  ../../../modules/desktop/tools/cliphist.nix
-  ../../../modules/desktop/tools/grim.nix
-  ../../../modules/desktop/tools/hyprpolkitagent.nix
-  ../../../modules/desktop/tools/wl-clipboard.nix
-  ../../../modules/desktop/tools/nwg-look.nix
-  ../../../modules/desktop/tools/nwg-displays.nix
-  ../../../modules/desktop/tools/slurp.nix
 
   ../../../modules/utilities/qbittorrent.nix
   ../../../modules/utilities/archive-software.nix
