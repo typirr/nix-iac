@@ -21,6 +21,12 @@
     venXlibre = {
       url = "git+https://codeberg.org/takagemacoed/xlibre-overlay";
     };
+    
+    noctalia = {
+      url = "github:noctalia-dev/noctalia";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  
   };
 
   outputs = { self, nixpkgs, sops-nix, home-manager, disko, venXlibre, ... }:{
