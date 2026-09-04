@@ -10,7 +10,7 @@
   ./hardware.nix
   ./system.nix
   ./disko.nix
-  ./firewall.nix
+  #./firewall.nix
 
   ../../../users/core/default.nix
   ../../../users/alpha/default.nix
