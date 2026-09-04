@@ -10,6 +10,7 @@
   ./hardware.nix
   ./system.nix
   ./disko.nix
+  ./firewall.nix
 
   ../../../users/core/default.nix
   ../../../users/alpha/default.nix
@@ -83,4 +84,5 @@
  # Variables
 
  custom.xdg.portals.implementations = [ pkgs.xdg-desktop-portal-termfilechooser pkgs.xdg-desktop-portal-gtk ];
+ 
 }
