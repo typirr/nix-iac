@@ -29,7 +29,7 @@
   
   };
 
-  outputs = { self, nixpkgs, sops-nix, home-manager, disko, venXlibre, ... }:{
+  outputs = inputs@{ self, nixpkgs, sops-nix, home-manager, disko, venXlibre, ... }:{
   
     nixosConfigurations = {
       
