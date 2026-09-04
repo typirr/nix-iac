@@ -51,7 +51,17 @@
   ../../../modules/desktop/tools/rofi.nix   
   ../../../modules/desktop/tools/nitrogen.nix
   ../../../modules/desktop/tools/lxrandr.nix
-  
+  ../../../modules/desktop/tools/cliphist.nix
+  ../../../modules/desktop/tools/grim.nix
+  ../../../modules/desktop/tools/hyprpolkitagent.nix
+  ../../../modules/desktop/tools/swaync.nix
+  ../../../modules/desktop/tools/wl-clipboard.nix
+  ../../../modules/desktop/tools/fuzzel.nix
+  ../../../modules/desktop/tools/hyprpaper.nix
+  ../../../modules/desktop/tools/nwg-look.nix
+  ../../../modules/desktop/tools/slurp.nix
+  ../../../modules/desktop/tools/waybar.nix
+
   ../../../modules/utilities/qbittorrent.nix
   ../../../modules/utilities/archive-software.nix
   ../../../modules/utilities/appimage-run.nix
