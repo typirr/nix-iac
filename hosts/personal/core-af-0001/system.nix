@@ -16,7 +16,7 @@
 
   programs.dconf.enable = true;
   
-  services.xserver.xkb.layout = "us";
+  services.xserver.xkb.layout = "us,eg";
 
   services.xserver.xkb.options = "grp:alt_shift_toggle";
   
