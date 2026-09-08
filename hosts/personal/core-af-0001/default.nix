@@ -50,6 +50,7 @@
   ../../../modules/desktop/tools/nitrogen.nix
   ../../../modules/desktop/tools/lxrandr.nix
 
+  ../../../modules/utilities/emacs.nix
   ../../../modules/utilities/qbittorrent.nix
   ../../../modules/utilities/archive-software.nix
   ../../../modules/utilities/appimage-run.nix
