@@ -80,6 +80,7 @@
   ../../../modules/networking/vpn/proton-vpn.nix
 
   ../../../modules/fonts/jetbrains-mono-nerdfonts.nix
+  ../../../modules/fonts/windows-fonts.nix
  ];
  
  # Variables
