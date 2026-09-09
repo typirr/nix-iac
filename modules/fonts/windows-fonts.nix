@@ -1,7 +1,7 @@
 { pkgs, ... }:{
  fonts.packages = [
    pkgs.corefonts
-   pkgs.vistafonts
+   pkgs.vista-fonts
    pkgs.carlito
    pkgs.caladea
    pkgs.liberation_ttf
