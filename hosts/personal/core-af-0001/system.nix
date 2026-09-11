@@ -13,6 +13,8 @@
   boot.kernel.sysctl = {
     "vm.swappiness" = 10;
   };
+  
+  zramSwap.enable = true;
 
   programs.dconf.enable = true;
   
@@ -20,6 +22,8 @@
 
   services.xserver.xkb.options = "grp:alt_shift_toggle";
   
+  services.xserver.videoDrivers = [ "intel" ];
+
   hardware.graphics = {
     enable = true;
     enable32Bit = true;
