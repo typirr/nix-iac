@@ -22,7 +22,7 @@
 
   services.xserver.xkb.options = "grp:alt_shift_toggle";
   
-  services.xserver.videoDrivers = [ "intel" ];
+  services.xserver.videoDrivers = [ "intel" "modesetting" ];
 
   hardware.graphics = {
     enable = true;
