@@ -13,7 +13,7 @@
     enableBashIntegration = true;
     presets = [ "nerd-font-symbols" ];
     settings = {
-      ignore_timeout = true;
+      scan_timeout = 10;
     };
   };
   home.file.".config/i3status/config".source = ../../dotfiles/nord1/i3/i3status-config;
