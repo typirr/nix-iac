@@ -8,7 +8,11 @@
     fetch = "nix run github:SXSLVT/synfetch -- --nonerd --theme nord";
     rebuild = "sudo nixos-rebuild switch --flake /etc/nixos";
   };
-
+  programs.starship = {
+    enable = true;
+    enableBashIntegration = true;
+    presets = [ "tokyo-night" ];
+  };
   home.file.".config/i3status/config".source = ../../dotfiles/nord1/i3/i3status-config;
   home.file.".config/alacritty/alacritty.toml".source = ../../dotfiles/nord1/alacritty/alacritty.toml;
   home.file.".config/i3/config".source = ../../dotfiles/nord1/i3/i3-config; 
