@@ -11,7 +11,7 @@
   programs.starship = {
     enable = true;
     enableBashIntegration = true;
-    presets = [ "tokyo-night" ];
+    presets = [ "nerd-font-symbols" ];
   };
   home.file.".config/i3status/config".source = ../../dotfiles/nord1/i3/i3status-config;
   home.file.".config/alacritty/alacritty.toml".source = ../../dotfiles/nord1/alacritty/alacritty.toml;
