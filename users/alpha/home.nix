@@ -12,6 +12,9 @@
     enable = true;
     enableBashIntegration = true;
     presets = [ "nerd-font-symbols" ];
+    settings = {
+      ignore_timeout = true;
+    };
   };
   home.file.".config/i3status/config".source = ../../dotfiles/nord1/i3/i3status-config;
   home.file.".config/alacritty/alacritty.toml".source = ../../dotfiles/nord1/alacritty/alacritty.toml;
