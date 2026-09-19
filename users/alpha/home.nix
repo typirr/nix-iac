@@ -4,7 +4,6 @@
   home.username = "alpha";
   home.homeDirectory = "/home/alpha";
   programs.bash.shellAliases = {
-    snvim = "sudo -E nvim";
     fetch = "nix run github:SXSLVT/synfetch -- --nonerd --theme nord";
     rebuild = "sudo nixos-rebuild switch --flake /etc/nixos";
   };
@@ -31,7 +30,9 @@
     pkgs.fzf
     pkgs.git
     pkgs.jq
-    
+    pkgs.fastfetch
+    pkgs.vim
+
     pkgs.nordic
     pkgs.yaru-theme
     pkgs.papirus-icon-theme
