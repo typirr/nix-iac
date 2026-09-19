@@ -45,6 +45,8 @@
   ../../../modules/audio/qpwgraph.nix
 
   ../../../modules/desktop/windowmanager/i3.nix
+  ../../../modules/desktop/windowmanager/niri.nix
+  ../../../modules/desktop/shells/noctalia.nix
   ../../../modules/desktop/displaymanager/ly.nix
   ../../../modules/desktop/tools/rofi.nix   
   ../../../modules/desktop/tools/nitrogen.nix
@@ -85,6 +87,6 @@
  
  # Variables
 
- custom.xdg.portals.implementations = [ pkgs.xdg-desktop-portal-termfilechooser pkgs.xdg-desktop-portal-gtk ];
+ custom.xdg.portals.implementations = [ pkgs.xdg-desktop-portal-termfilechooser pkgs.xdg-desktop-portal-gtk pkgs.xdg-desktop-portal-gnome ];
  
 }
