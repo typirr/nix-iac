@@ -6,6 +6,8 @@
   networking.firewall.allowedTCPPorts = [
     22 # ssh
     
+    8080 # searXNG
+
     47984 47989 47990 48010 # sunshine
     
     53317   # localsend

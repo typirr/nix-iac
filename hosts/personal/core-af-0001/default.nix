@@ -39,7 +39,8 @@
   ../../../modules/services/syncthing.nix
   ../../../modules/services/rustdesk.nix
   ../../../modules/services/xdg-portals.nix
-  
+  ../../../modules/services/searxng.nix
+
   ../../../modules/audio/pipewire.nix
   ../../../modules/audio/pavucontrol.nix
   ../../../modules/audio/qpwgraph.nix
